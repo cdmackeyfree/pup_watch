@@ -35,5 +35,5 @@ class JobsController < ApplicationController
     params.require(:job).permit(:title, :description)
   end
 
-
+#here is a note
 end
